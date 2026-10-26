@@ -1,0 +1,11 @@
+{
+  "name": "fitmotor-skills",
+  "owner": { "name": "rafiadli719" },
+  "plugins": [
+    {
+      "name": "laporan-tim-it-fitmotor",
+      "source": "./",
+      "description": "Rapikan catatan mentah tim IT FIT MOTOR menjadi laporan harian ringkas format WhatsApp untuk manajemen."
+    }
+  ]
+}
