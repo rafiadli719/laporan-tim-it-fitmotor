@@ -1,6 +1,6 @@
 ---
 name: laporan-tim-it-fitmotor
-description: Rapikan catatan mentah tim IT Fit Motor menjadi laporan harian ringkas untuk manajemen, berupa teks siap tempel ke WhatsApp yang bisa dibaca dalam sekitar 1 menit. Memisahkan "dikerjakan", "dieksekusi", dan "terverifikasi", mewajibkan angka X dari Y, target tanggal, risiko dan kendala, serta keputusan yang dibutuhkan dari pimpinan, dan menentukan status 🟢🟡🔴 dari kriteria tertulis, bukan penilaian bebas. Jika ada poin penting yang terlewat di catatan, skill mewawancarai tim satu pertanyaan per giliran. Gunakan saat anggota tim IT menempelkan catatan kerja harian, minta dirapikan jadi laporan, atau menyebut laporan harian, laporan progres, update proyek ke pimpinan, atau lapor ke manajemen, walau tanpa menyebut nama skill. Jangan gunakan untuk menyusun PRD atau dokumen kebutuhan (pakai prd-fitdigital), mengisi Form Pengajuan Project (pakai form-pengajuan-project-fitmotor), atau laporan keuangan dan kinerja cabang.
+description: Rapikan catatan mentah tim IT Fit Motor menjadi laporan harian ringkas untuk manajemen, berupa teks siap tempel ke WhatsApp yang bisa dibaca dalam sekitar 1 menit. Memisahkan "dikerjakan", "dieksekusi", dan "terverifikasi", mewajibkan angka X dari Y, target tanggal, risiko dan kendala, serta keputusan yang dibutuhkan dari pimpinan, dan menentukan status 🟢🟡🔴 dari kriteria tertulis, bukan penilaian bebas. Jika ada poin penting yang terlewat di catatan, skill mewawancarai tim satu pertanyaan per giliran. Gunakan saat anggota tim IT menempelkan catatan kerja harian, minta dirapikan jadi laporan, atau menyebut laporan harian, laporan progres, update proyek ke pimpinan, atau lapor ke manajemen, walau tanpa menyebut nama skill. Jangan gunakan untuk menyusun PRD atau dokumen kebutuhan (pakai skill prd-fitdigital bila sudah terpasang), mengisi Form Pengajuan Project (pakai skill form-pengajuan-project-fitmotor bila sudah terpasang), atau laporan keuangan dan kinerja cabang.
 ---
 
 # LAPORAN-TIM-IT-FITMOTOR
@@ -188,7 +188,7 @@ Jangan membuat file kecuali diminta. Jika tim mengoreksi isi, perbarui laporan d
 - Tidak menilai kualitas teknis pekerjaan, hanya melaporkan statusnya.
 - Tidak mengarang target, angka, atau hasil pemeriksaan agar laporan tampak lengkap.
 - Tidak menyembunyikan atau memperhalus risiko.
-- Tidak membuat PRD, form pengajuan, atau skor dampak (itu skill lain).
+- Tidak membuat PRD, form pengajuan, atau skor dampak (itu skill lain, bila sudah terpasang; jika belum, sampaikan ke tim bahwa skill itu belum ada).
 
 ## Contoh (laporan nyata 23 Oktober 2026, setelah dirapikan)
 
@@ -199,7 +199,7 @@ Jangan membuat file kecuali diminta. Jika tim mengoreksi isi, perbarui laporan d
 🟡 *Status:* Target tanggal belum ada, dan hasil belum diperiksa kecocokannya
 
 *RINGKASAN*
-Tahap 1 selesai dijalankan: 5 dari 62 query (bagian pengolahan data) sudah dipindahkan. Hasilnya belum dicocokkan dengan sistem lama, jadi belum bisa disebut berhasil. Target selesai proyek belum ada.
+Tahap 1 sudah dijalankan: 5 dari 62 query (bagian pengolahan data) sudah dipindahkan. Hasilnya belum dicocokkan dengan sistem lama, jadi belum bisa disebut berhasil. Target selesai proyek belum ada.
 
 *PROGRES*
 • Dieksekusi: 5 dari 62 query (8%)
@@ -209,11 +209,11 @@ Tahap 1 selesai dijalankan: 5 dari 62 query (bagian pengolahan data) sudah dipin
 • Perkiraan tim: BELUM ADA
 
 *SELESAI HARI INI*
-1. Salinan cadangan data Access — selesai — uji pemulihan BELUM DIKONFIRMASI
-2. Pendataan 62 query + beberapa objek lain — selesai — jumlah objek lain BELUM DIRINCI
+1. Salinan cadangan data Access — dikerjakan — uji pemulihan BELUM DIKONFIRMASI
+2. Pendataan 62 query + beberapa objek lain — dikerjakan — jumlah objek lain BELUM DIRINCI
 3. Pemindahan 5 query tahap 1 — dieksekusi — BELUM DIPERIKSA kecocokannya
-4. Penanda cabang pada data — disesuaikan — BELUM DIPERIKSA
-5. Dokumentasi tahap 1 — tersimpan
+4. Penanda cabang pada data — dikerjakan — BELUM DIPERIKSA
+5. Dokumentasi tahap 1 — dikerjakan — BELUM DIPERIKSA
 
 *RISIKO & KENDALA*
 1. Hasil belum dicocokkan → dampak: jika salah, 57 query sisanya bisa ikut salah → tindakan: dicocokkan besok → butuh bantuan: BELUM DIKONFIRMASI
